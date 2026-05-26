@@ -1,0 +1,27 @@
+{
+  "name": "interviewer",
+  "version": "2.0.0",
+  "private": true,
+  "description": "公务员面试模拟器 - 全兼容版",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "vite": "^6.0.0"
+  },
+  "browserslist": [
+    "> 0.5% in CN",
+    "Android >= 5",
+    "iOS >= 12",
+    "Chrome >= 60",
+    "Safari >= 12",
+    "UCAndroid >= 11",
+    "QQAndroid >= 8",
+    "and_qq >= 8",
+    "Baidu >= 8"
+  ]
+}

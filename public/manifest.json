@@ -1,0 +1,23 @@
+{
+  "name": "公务员面试模拟器",
+  "short_name": "面试模拟",
+  "description": "公务员结构化面试全真模拟练习工具",
+  "start_url": "/interviewer/",
+  "scope": "/interviewer/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F5F0E6",
+  "theme_color": "#A0522D",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

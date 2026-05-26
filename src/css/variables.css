@@ -1,0 +1,36 @@
+/* ============================================================
+   CSS Variables — 全兼容主题系统
+   ============================================================ */
+:root {
+  /* Color palette */
+  --bg: #F5F0E6;
+  --card: rgba(255, 255, 255, 0.72);
+  --card-solid: #FFFCF5;
+  --border: #E0D8C8;
+  --text: #2C2416;
+  --muted: #8B7E6A;
+  --accent: #C8963E;
+  --accent2: #A0522D;
+  --danger: #C0392B;
+  --success: #5D8A4E;
+  --info: #5B7FA5;
+  --timer-warn: #D4882A;
+  --btn: #5B7FA5;
+  --btn-hover: #4A6D91;
+
+  /* Layout */
+  --header-h: 52px;
+  --timer-h: 44px;
+  --bottom-h: 130px;
+
+  /* Font stack — 与原版一致 */
+  --font-title: "SimHei","黑体","PingFang SC","Microsoft YaHei",sans-serif;
+  --font-body: "KaiTi","楷体","STKaiti","BiauKai",serif;
+
+  /* Blur — 仅作渐进增强 */
+  --blur: blur(16px);
+
+  /* Safe area */
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-top: env(safe-area-inset-top, 0px);
+}

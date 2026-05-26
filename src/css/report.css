@@ -1,0 +1,221 @@
+/* ============================================================
+   Report — 成绩单样式
+   ============================================================ */
+
+/* ---- Loading ---- */
+.score-loading {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--muted);
+  font-family: var(--font-title);
+}
+
+.score-loading .spinner {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  -webkit-animation: spin 0.8s linear infinite;
+          animation: spin 0.8s linear infinite;
+  margin-bottom: 16px;
+}
+
+.score-loading p {
+  font-size: 1rem;
+  font-family: var(--font-body);
+}
+
+/* ---- Hero Score ---- */
+.score-hero {
+  text-align: center;
+  padding: 30px 0 20px;
+  font-family: var(--font-body);
+}
+
+.score-num {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--accent2);
+  font-family: "KaiTi","楷体","STKaiti","BiauKai",serif;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 2px;
+  letter-spacing: 2px;
+}
+
+.score-num.zero {
+  color: var(--danger);
+  -webkit-text-decoration-color: var(--danger);
+          text-decoration-color: var(--danger);
+}
+
+.score-label {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 8px;
+  font-family: var(--font-title);
+}
+
+/* ---- Section ---- */
+.score-section {
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 14px;
+}
+@supports ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px))) {
+  .score-section {
+    -webkit-backdrop-filter: blur(8px);
+            backdrop-filter: blur(8px);
+  }
+}
+
+.score-section h3 {
+  font-family: var(--font-title);
+  font-size: 0.9rem;
+  color: var(--accent2);
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.score-section h3 .emoji {
+  margin-right: 4px;
+}
+
+/* ---- Judge Table ---- */
+.judge-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.78rem;
+}
+
+.judge-table th,
+.judge-table td {
+  padding: 6px 4px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.judge-table th {
+  font-family: var(--font-title);
+  color: var(--muted);
+  font-weight: 500;
+  font-size: 0.72rem;
+}
+
+.judge-table .judge-score {
+  font-weight: 700;
+  color: var(--accent2);
+  font-size: 0.9rem;
+  font-family: var(--font-title);
+}
+
+.judge-table .judge-hi {
+  color: var(--success);
+}
+
+.judge-table .judge-lo {
+  color: var(--danger);
+}
+
+.final-score-row {
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--accent2);
+  font-family: var(--font-title);
+}
+
+/* ---- Two Column ---- */
+.two-col {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.two-col > div {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 250px;
+}
+
+.col-highlights h3 {
+  color: var(--success);
+}
+
+.col-weakness h3 {
+  color: var(--danger);
+}
+
+/* ---- Replay ---- */
+.replay-item {
+  margin-bottom: 14px;
+}
+
+.replay-item h4 {
+  font-family: var(--font-title);
+  font-size: 0.82rem;
+  color: var(--accent2);
+  margin-bottom: 6px;
+}
+
+.replay-item .demo-answer {
+  background: rgba(200, 150, 62, 0.06);
+  border-left: 3px solid var(--accent);
+  padding: 10px 14px;
+  border-radius: 0 8px 8px 0;
+  margin: 6px 0;
+  font-size: 0.82rem;
+  line-height: 1.7;
+}
+
+.replay-item .score-secret {
+  color: var(--accent2);
+  font-size: 0.82rem;
+  margin-top: 6px;
+  font-style: italic;
+}
+
+/* ---- Framework ---- */
+.framework-box {
+  background: rgba(200, 150, 62, 0.06);
+  border: 1px dashed var(--accent);
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+
+/* ---- Rotation ---- */
+.rotation-info {
+  font-size: 0.8rem;
+  color: var(--muted);
+  text-align: center;
+  margin-top: 6px;
+  font-family: var(--font-title);
+}
+
+/* ---- Report Close ---- */
+.report-close {
+  text-align: center;
+  margin: 16px 0;
+}
+
+.report-close .btn {
+  max-width: 200px;
+  margin: 0 auto;
+}
